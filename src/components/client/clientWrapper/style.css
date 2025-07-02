@@ -1,0 +1,26 @@
+
+/* clientclient-wrapper-container */
+div.client-wrapper-container{
+    padding: 0 16px; /* مقدار پیش‌فرض برای موبایل */
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    div.client-wrapper-container{
+        padding: 0 24px; /* مقدار padding برای تبلت‌ها */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    div.client-wrapper-container{
+        padding: 0 36px; /* مقدار padding برای دسکتاپ‌ها */
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    div.client-wrapper-container{
+        
+        padding: 0 10%;
+        
+    }
+  }

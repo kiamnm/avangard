@@ -257,7 +257,7 @@ font-family: 'anjomanMedium';
   font-family: "anjomanNumLight";
 }
 
-  .color_white{
+  /* .color_white{
     color: white;
   }
   .color_dark{
@@ -271,8 +271,10 @@ font-family: 'anjomanMedium';
   }
   .color_white{
     color: #ffffff;
+  } */
+  .color_pink{
+    color: #C12E5C;
   }
-  
   .bg_color_white{
     background-color: white;
   }

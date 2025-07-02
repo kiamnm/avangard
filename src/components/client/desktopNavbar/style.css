@@ -1,0 +1,40 @@
+div.desktop-navbar-container{
+    height: 86px;
+    background-color: white;
+}
+div.desktop-navbar-container div.right{
+    height: 100%;
+   
+}
+div.desktop-navbar-container div.logo-container{
+    gap: 10px;
+}
+div.desktop-navbar-container div.logo-container img.logo{
+    width: 64px;
+    
+    
+}
+div.desktop-navbar-container  ul.items-container {
+    gap:24px ;
+}
+div.desktop-navbar-container  ul.items-container li{
+    gap: 6px;
+}
+div.desktop-navbar-container  ul.items-container li.active{
+    border-bottom: 3px solid #C12E5C;
+    color: #C12E5C;
+}
+div.desktop-navbar-container div.left{
+    height: 100%;
+    gap: 16px;
+}
+div.desktop-navbar-container div.left .login-btn-container{
+    gap: 6px;
+    border-radius: 20px;
+    border: 1px solid rgb(168, 168, 168);
+}
+
+div.desktop-navbar-container div.left div.dark-mode-btn-container, div.notification-btn-container, div.cart-btn-container{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 50%;
+}
