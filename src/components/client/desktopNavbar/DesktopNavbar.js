@@ -22,31 +22,120 @@ export default function DesktopNavbar() {
           <ul className="items-container d-flex  align-items-center p-0 m-0">
             <li className="d-flex fs_14 anjoman_regular cursor_pointer active ">
               <span className="p-0 m-0 d-flex align-items-center">
-                <MdHome style={{color:"#C12E5C",fontSize:"24px"}} />
+                <MdHome style={{ color: "#C12E5C", fontSize: "24px" }} />
               </span>
 
               <p className="p-0 m-0">خانه</p>
             </li>
-            <li className="d-flex  fs_14 anjoman_regular cursor_pointer">
-              
-
+            <li className="d-flex  fs_14 anjoman_regular cursor_pointer  services-item position-relative">
               <p className="p-0 m-0">خدمات</p>
               <span className="p-0 m-0 d-flex align-items-center">
-                <MdOutlineArrowDropDown style={{color:"#C12E5C",fontSize:"24px"}} />
+                <MdOutlineArrowDropDown
+                  style={{ color: "#C12E5C", fontSize: "24px" }}
+                />
               </span>
-            </li>
-            <li className="d-flex  fs_14 anjoman_regular cursor_pointer">
-              
 
+              <ul className="services-submenu position-absolute p-2 m-0 ">
+                <li className="d-flex align-items-center">
+                  <img
+                    style={{ width: "20px", height: "20px" }}
+                    src="./images/message-icon.svg"
+                    alt=""
+                  />
+                  <p className="m-0 color_white anjoman_regular text-nowrap">
+                    مشاوره آنلاین
+                  </p>
+                </li>
+                <li className="d-flex align-items-center">
+                  <img
+                    style={{ width: "20px", height: "20px" }}
+                    src="./images/message-icon.svg"
+                    alt=""
+                  />
+                  <p className="m-0 color_white anjoman_regular text-nowrap">
+                    مشاوره آنلاین
+                  </p>
+                </li>
+                <li className="d-flex align-items-center">
+                  {" "}
+                  <img
+                    style={{ width: "20px", height: "20px" }}
+                    src="./images/message-icon.svg"
+                    alt=""
+                  />
+                  <p className="m-0 color_white anjoman_regular text-nowrap">
+                    مشاوره آنلاین
+                  </p>
+                </li>
+                <li className="d-flex align-items-center">
+                  {" "}
+                  <img
+                    style={{ width: "20px", height: "20px" }}
+                    src="./images/message-icon.svg"
+                    alt=""
+                  />
+                  <p className="m-0 color_white anjoman_regular text-nowrap">
+                    مشاوره آنلاین
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li className="d-flex  fs_14 anjoman_regular cursor_pointer aboutus-item position-relative">
               <p className="p-0 m-0">ارتباط با ما</p>
               <span className="p-0 m-0 d-flex align-items-center">
-                <MdOutlineArrowDropDown style={{color:"#C12E5C",fontSize:"24px"}} />
+                <MdOutlineArrowDropDown
+                  style={{ color: "#C12E5C", fontSize: "24px" }}
+                />
               </span>
+
+              <ul className="aboutus-submenu position-absolute p-2 m-0 ">
+                <li className="d-flex align-items-center">
+                  <img
+                    style={{ width: "20px", height: "20px" }}
+                    src="./images/message-icon.svg"
+                    alt=""
+                  />
+                  <p className="m-0 color_white anjoman_regular text-nowrap">
+                    مشاوره آنلاین
+                  </p>
+                </li>
+                <li className="d-flex align-items-center">
+                  <img
+                    style={{ width: "20px", height: "20px" }}
+                    src="./images/message-icon.svg"
+                    alt=""
+                  />
+                  <p className="m-0 color_white anjoman_regular text-nowrap">
+                    مشاوره آنلاین
+                  </p>
+                </li>
+                <li className="d-flex align-items-center">
+                  {" "}
+                  <img
+                    style={{ width: "20px", height: "20px" }}
+                    src="./images/message-icon.svg"
+                    alt=""
+                  />
+                  <p className="m-0 color_white anjoman_regular text-nowrap">
+                    مشاوره آنلاین
+                  </p>
+                </li>
+                <li className="d-flex align-items-center">
+                  {" "}
+                  <img
+                    style={{ width: "20px", height: "20px" }}
+                    src="./images/message-icon.svg"
+                    alt=""
+                  />
+                  <p className="m-0 color_white anjoman_regular text-nowrap">
+                    مشاوره آنلاین
+                  </p>
+                </li>
+              </ul>
             </li>
             <li className="d-flex  fs_14 anjoman_regular cursor_pointer">
               <span className="p-0 m-0 d-flex align-items-center">
-                <TbMap2 style={{color:"#C12E5C",fontSize:"24px"}} />
-                
+                <TbMap2 style={{ color: "#C12E5C", fontSize: "24px" }} />
               </span>
 
               <p className="p-0 m-0">نقشه</p>
@@ -56,21 +145,19 @@ export default function DesktopNavbar() {
         <div className="left d-flex align-items-center">
           <div className="login-btn-container d-flex align-items-center px-3 py-2 cursor_pointer">
             <span className="d-flex align-items-center">
-<CiUser style={{fontSize:"24px"}} />
+              <CiUser style={{ fontSize: "24px" }} />
             </span>
-           
-            
+
             <p className="p-0 m-0 fs_14 anjoman_regular">ثبت نام |ورود </p>
-            
           </div>
           <div className="dark-mode-btn-container p-2 cursor_pointer">
-            <IoMoonOutline style={{fontSize:"22px"}} />
+            <IoMoonOutline style={{ fontSize: "22px" }} />
           </div>
           <div className="notification-btn-container p-2 cursor_pointer">
-            <IoIosNotificationsOutline style={{fontSize:"24px"}} />
+            <IoIosNotificationsOutline style={{ fontSize: "24px" }} />
           </div>
           <div className="cart-btn-container p-2 cursor_pointer">
-            <IoBagOutline style={{fontSize:"22px"}} />
+            <IoBagOutline style={{ fontSize: "22px" }} />
           </div>
         </div>
       </div>

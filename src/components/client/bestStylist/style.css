@@ -1,0 +1,22 @@
+div.best-stylist-container div.right div.icon-container{
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 4px;
+}
+div.best-stylist-container div.right div.icon-container img{
+    width: 24px;
+    height: 24px;
+}
+div.best-stylist-container div.left div.button-container{
+border-radius: 40px;
+padding: 4px 12px;
+}
+div.best-stylist-container div.left div.button-container span{
+    border-radius: 50%;
+    background-color: rgba(256, 256, 256, 0.4);
+    
+    width: 24px;
+    height: 24px;
+    
+}

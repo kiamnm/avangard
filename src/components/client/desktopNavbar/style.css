@@ -1,40 +1,107 @@
-div.desktop-navbar-container{
-    height: 86px;
-    background-color: white;
+div.desktop-navbar-container {
+  height: 86px;
+  background-color: white;
 }
-div.desktop-navbar-container div.right{
-    height: 100%;
-   
+div.desktop-navbar-container div.right {
+  height: 100%;
 }
-div.desktop-navbar-container div.logo-container{
-    gap: 10px;
+div.desktop-navbar-container div.logo-container {
+  gap: 10px;
 }
-div.desktop-navbar-container div.logo-container img.logo{
-    width: 64px;
-    
-    
+div.desktop-navbar-container div.logo-container img.logo {
+  width: 64px;
 }
-div.desktop-navbar-container  ul.items-container {
-    gap:24px ;
+div.desktop-navbar-container ul.items-container {
+  gap: 24px;
 }
-div.desktop-navbar-container  ul.items-container li{
-    gap: 6px;
+div.desktop-navbar-container ul.items-container li {
+  gap: 6px;
 }
-div.desktop-navbar-container  ul.items-container li.active{
-    border-bottom: 3px solid #C12E5C;
-    color: #C12E5C;
+div.desktop-navbar-container ul.items-container li.active {
+  border-bottom: 3px solid #c12e5c;
+  color: #c12e5c;
 }
-div.desktop-navbar-container div.left{
-    height: 100%;
-    gap: 16px;
+div.desktop-navbar-container div.left {
+  height: 100%;
+  gap: 16px;
 }
-div.desktop-navbar-container div.left .login-btn-container{
-    gap: 6px;
-    border-radius: 20px;
-    border: 1px solid rgb(168, 168, 168);
+div.desktop-navbar-container div.left .login-btn-container {
+  gap: 6px;
+  border-radius: 20px;
+  border: 1px solid rgb(168, 168, 168);
 }
 
-div.desktop-navbar-container div.left div.dark-mode-btn-container, div.notification-btn-container, div.cart-btn-container{
-    border: 1px solid rgb(168, 168, 168);
-    border-radius: 50%;
+div.desktop-navbar-container div.left div.dark-mode-btn-container,
+div.notification-btn-container,
+div.cart-btn-container {
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 50%;
+}
+
+.services-submenu {
+  top: 100%;
+  right: 0;
+  background-color: rgb(2, 2, 2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+/* موقع هاور، زیرمنو نمایش داده می‌شود */
+.services-item:hover .services-submenu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* آیتم‌های زیرمنو */
+.services-submenu li {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.services-submenu li:hover {
+  background-color: #636363;
+  border-radius: 4px;
+}
+
+.aboutus-submenu {
+  top: 100%;
+  right: 0;
+  background-color: rgb(2, 2, 2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+/* موقع هاور، زیرمنو نمایش داده می‌شود */
+.aboutus-item:hover .aboutus-submenu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* آیتم‌های زیرمنو */
+.aboutus-submenu li {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.aboutus-submenu li:hover {
+  background-color: #636363;
+  border-radius: 4px;
 }

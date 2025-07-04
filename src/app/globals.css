@@ -278,6 +278,9 @@ font-family: 'anjomanMedium';
   .bg_color_pink{
     background-color:#C12E5C ;
   }
+  .bg_color_body{
+    background-color: #f7f5f2;
+  }
   .bg_color_white{
     background-color: white;
   }
@@ -287,9 +290,7 @@ font-family: 'anjomanMedium';
   .bg_color_black{
     background-color: black
   }
-  .bg_color_body{
-    background-color: #ededed8c;
-  }
+  
   .bg_color_gray{
     background-color: #E2E2E2;
   }
