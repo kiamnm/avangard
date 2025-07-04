@@ -5,6 +5,7 @@ import HomeHeader from "@/components/client/homeHeader/HomeHeader";
 import BestStylist from "@/components/client/bestStylist/BestStylist";
 
 import DesktopNavbar from "@/components/client/desktopNavbar/DesktopNavbar";
+import NearestSalon from "@/components/client/nearestSalon/NearestSalon";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <DesktopNavbar></DesktopNavbar>
       <HomeHeader></HomeHeader>
       <BestStylist></BestStylist>
+      <NearestSalon></NearestSalon>
     </div>
   );
 }

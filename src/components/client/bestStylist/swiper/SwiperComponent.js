@@ -2,19 +2,19 @@
 import React from "react";
 import "./style.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css"; // استایل پایه
+import "swiper/css";   
 import "swiper/css/pagination";
-import { Pagination, Autoplay } from "swiper/modules"; // اضافه شد
+import { Pagination, Autoplay } from "swiper/modules";   
 import Item from "./item/Item";
 
 export default function SwiperComponent({ data }) {
   return (
     <div>
       <Swiper 
-       modules={[Pagination, Autoplay]} // اضافه شد
+       modules={[Pagination, Autoplay]}   
         autoplay={{
-          delay: 2000, // تاخیر بین اسلایدها (میلی‌ثانیه)
-          disableOnInteraction: false, // با کلیک یا لمس کاربر autoplay متوقف نشود
+          delay: 2000, 
+          disableOnInteraction: false, 
           pauseOnMouseEnter: true,
         }}
       

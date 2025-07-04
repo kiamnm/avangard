@@ -43,12 +43,12 @@ div.type-container{
     
    
 }
-div.img-container{
+.home-header-container div.img-container{
     width:100%;
     background-color:#4E8489 ;
     border-radius: 8px;
 }
-div.img-container img{
+.home-header-container div.img-container img{
     width: 100%;
 }
 
