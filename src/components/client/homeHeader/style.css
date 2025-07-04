@@ -1,0 +1,73 @@
+.home-header-container {
+  background-image: url('/images/pink-back.svg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  z-index: 1;
+
+}
+
+.content {
+  height: 100%;
+ 
+  
+  
+}
+
+.small-arc-container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 60px;
+  z-index: 3;
+}
+.icon-react {
+  position: absolute;
+  top: 50%; /* وسط ارتفاع */
+  left: 50%; /* وسط عرض */
+  transform: translate(-50%, -30%);
+  font-size: 32px; /* اندازه آیکون */
+  color: #C12E5C; /* رنگ آبی React */
+  pointer-events: none; /* برای اینکه کلیک روی آیکون مشکلی ایجاد نکنه */
+}
+div.types-container{
+    gap: 16px;
+}
+div.type-container{
+    width: 100px;
+    border-radius: 8px;
+    
+   
+}
+div.img-container{
+    width:100%;
+    background-color:#4E8489 ;
+    border-radius: 8px;
+}
+div.img-container img{
+    width: 100%;
+}
+
+div.search-container{
+    width: 800px;
+    height: 52px;
+    background-color: white;
+    border-radius: 8px;
+     outline: 4px solid rgb(255, 255, 255,0.6);
+    
+}
+.search-container > div{
+    height: 100%;
+    padding-right: 16px;
+}
+.search-container > div:not(:last-child){
+    width: 28%;
+    border-left: 2px solid rgb(201, 201, 201);
+}
+button{
+    border-radius: 4px;
+}
