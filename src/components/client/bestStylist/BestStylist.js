@@ -5,6 +5,7 @@ import { MdKeyboardArrowLeft } from "react-icons/md";
 import SwiperComponent from "./swiper/SwiperComponent";
 
 export default function BestStylist() {
+  
   const data=[
     {imgSrc:"./images/femail-model1.jpg",name:"زهرا صادقی",job:"میکاپ آرتیست"},
      {imgSrc:"./images/femail-model2.jpg",name:" مریم باقری",job:"ناخن کار"},
@@ -40,6 +41,7 @@ export default function BestStylist() {
 
 
   ]
+  
   return (
     
       

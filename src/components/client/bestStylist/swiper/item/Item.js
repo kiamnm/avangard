@@ -11,6 +11,7 @@ export default function Item({data}) {
           
 <p className='fs_14 m-0 anjoman_medium'>{data.name}</p>
 <p className='fs_12 m-0 anjoman_regular'>{data.job}</p> 
+
           </> 
         )}
 

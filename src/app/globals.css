@@ -304,7 +304,9 @@ font-family: 'anjomanMedium';
     text-align: justify;
   }
   
-
+.lh_0{
+  line-height: 0;
+}
   /* costum class */
 
 

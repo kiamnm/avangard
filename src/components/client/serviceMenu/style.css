@@ -1,0 +1,103 @@
+div.service-menu-container .menu-container{
+height: 500px;
+}
+
+div.service-menu-container .menu-container div.main-menu{
+    background-color: #FAF6F5;
+}
+div.service-menu-container .menu-container div.main-menu img{
+    width: 35px;
+    height: 35px;
+}
+div.service-menu-container .menu-container div.main-menu div.item-container.active{
+background-color: white;
+border-right: 4px solid #C12E5C;
+}
+div.service-menu-container .menu-container div.main-menu div.item-container.not-active{
+    background-color: #FAF6F5;
+}
+
+div.service-menu-container .menu-container .sub-menu .item-container{
+border-radius: 8px;
+box-shadow: 0 0px 12px rgba(0, 0, 0, 0.3);
+}
+div.service-menu-container .menu-container .sub-menu .item-container img{
+    width: 25px;
+    height: 25px;
+    
+}
+div.service-menu-container .menu-container .sub-menu .item-container .img-container{
+    background-color: #FAF6F5;
+    border-radius: 2px;
+    
+}
+
+div.service-menu-container .menu-container .sub-menu .item-container.active{
+    
+    border-right: 4px solid #C12E5C;
+}
+
+div.service-menu-container .menu-container .sub-sub-menu div.title{
+box-shadow: 0 0px 12px rgba(0, 0, 0, 0.3);
+border-radius: 4px;
+}
+div.service-menu-container .menu-container .sub-sub-menu  div.items-container{
+    gap: 3.5%;
+}
+div.service-menu-container .menu-container .sub-sub-menu  div.item-container {
+    border-radius: 8px;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.3);
+    width: 31%;
+    
+}
+div.service-menu-container .menu-container .sub-sub-menu  div.item-container p.title-text{
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+div.service-menu-container .menu-container .sub-sub-menu  div.item-container div.img-container img{
+    width: 100%;
+    height: 100%;
+}
+div.service-menu-container .menu-container .sub-sub-menu  div.item-container div.three-img-container > img{
+width: 32px;
+height: 32px;
+border-radius: 50%;
+}
+div.service-menu-container .menu-container .sub-sub-menu  div.item-container div.three-img-container div.other-stylist{
+    width: 32px;
+height: 32px;
+border-radius: 50%;
+background-color: #C12E5C;
+}
+div.service-menu-container .menu-container .sub-sub-menu  div.item-container div.button{
+    border: 1px solid #C12E5C;
+    border-radius: 8px;
+}
+div.service-menu-container .menu-container .sub-sub-menu  div.item-container div.three-img-container :nth-child(2){
+    right: -16px;
+    z-index: 2;
+}
+div.service-menu-container .menu-container .sub-sub-menu  div.item-container div.three-img-container :nth-child(3){
+    right: -32px;
+    z-index: 1;
+}
+div.service-menu-container .menu-container .sub-sub-menu  div.item-container div.three-img-container :nth-child(1){
+    
+    z-index: 3;
+}
+div.service-menu-container .menu-container .sub-sub-menu  div.item-container div.three-img-container{
+    right: 16px;
+}
+
+
+
+
+.scroll-hidden {
+  overflow: auto;
+  -ms-overflow-style: none;  /* IE 10+ */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

@@ -13,7 +13,7 @@ div.client-wrapper-container{
   
   @media (min-width: 1024px) {
     div.client-wrapper-container{
-        padding: 0 36px; /* مقدار padding برای دسکتاپ‌ها */
+        padding: 0 80px; /* مقدار padding برای دسکتاپ‌ها */
     }
   }
   
