@@ -1,0 +1,48 @@
+div.amazing-offer-container{
+ padding: 24px 12px;
+    border-radius: 16px;
+    background-color: #D95388;
+    user-select: none;
+}
+
+div.amazing-offer-container div.offer-container {
+    height: 100%;
+    gap: 16px;
+    
+}
+
+
+div.amazing-offer-container div.tag-container{
+    gap: 16px ;
+}
+div.amazing-offer-container div.tag-container div.two-tag{
+    gap: 8px;
+}
+div.amazing-offer-container  div.tag-container .tag{
+padding: 4px 8px;
+
+background-color:#FAF6F5 ;
+border-radius: 4px;
+}
+.button-container span.button-icon {
+  display: inline-block; 
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}
+
+.button-container:hover span.button-icon {
+  transform: translateX(-5px);
+}
+@media screen and (max-width:768px) {
+   
+    div.amazing-offer-container div.offer-container {
+    height: auto;
+    padding-bottom: 24px;
+    
+}
+div.amazing-offer-container{
+ padding: 16px 12px 24px 0px;
+
+}
+
+}

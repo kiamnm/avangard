@@ -68,6 +68,7 @@ export default function ServiceMenu() {
               .find((item) => item.title === activeMenu)
               ?.subMenu.map((subItem, index) => (
                 <div
+                key={index}
                   onClick={() => {
                     setActiveSubMenu(subItem.title);
                   }}
@@ -77,7 +78,8 @@ export default function ServiceMenu() {
                   }`}
                 >
                   <div className="img-container p-2">
-                    <img src={subItem.iconSrc} alt={subItem.title} />
+                    <img src={subItem.iconSrc}  alt={subItem.title} />
+                    
                   </div>
 
                   <p className="fs_12 anjoman_regular m-0">{subItem.title}</p>
@@ -154,7 +156,7 @@ export default function ServiceMenu() {
             {data
               .find((item) => item.title === activeMenu)
               ?.subMenu.map((subItem, index) => (
-                <div className="accordion-item">
+                <div className="accordion-item" key={index}>
                   <div
                     onClick={() => {
                       setActiveSubMenu(subItem.title);
@@ -167,8 +169,9 @@ export default function ServiceMenu() {
                       activeSubMenu === subItem.title ? "active" : ""
                     }`}
                   >
+                    
                     <div className="img-container p-2">
-                      <img src={subItem.iconSrc} alt={subItem.title} />
+                      <img className="test" src={subItem.iconSrc} alt={subItem.title} />
                     </div>
 
                     <p className="fs_12 anjoman_regular m-0">{subItem.title}</p>

@@ -1,0 +1,74 @@
+div.amazing-offer-container .item-container{
+    
+    background-color: white;
+    border-radius: 8px;
+    
+}
+div.amazing-offer-container div.header{
+    padding: 8px;
+}
+div.amazing-offer-container  .like-icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 50%;
+}
+div.amazing-offer-container .img-container {
+    position: relative;
+}
+div.amazing-offer-container  .img-container .salon{
+    width: 100%;
+}
+div.amazing-offer-container .img-container .logo{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    bottom: -32px;
+    right: 16px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+div.amazing-offer-container div.content-container{
+    padding: 8px;
+}
+div.amazing-offer-container div.content-container p.title{
+    margin-bottom: 8px;
+    
+}
+div.amazing-offer-container div.content-container p.text{
+    text-align: justify;
+    
+}
+div.amazing-offer-container div.special-container{
+    gap: 4px;
+}
+div.amazing-offer-container div.special-container div{
+    background-color: #C12E5C;
+    padding: 4px 8px ;
+    border-radius: 4px;
+}
+div.amazing-offer-container .footer{
+    border-top: 1px solid rgb(182, 182, 182);
+    padding: 8px;
+}
+div.amazing-offer-container  .footer .left{
+    border: 1px solid #C12E5C;
+    border-radius: 8px;
+    padding: 4px 28px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+div.amazing-offer-container span.navigator{
+    background-color:white ;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+div.amazing-offer-container .swiper-container{
+    gap: 12px;
+}
+
+div.amazing-offer-container  .footer .left:hover{
+    background-color: #C12E5C;
+    color: white;
+}
