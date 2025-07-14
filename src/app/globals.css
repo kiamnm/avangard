@@ -1,56 +1,98 @@
 
 /* add fonts */
+
 @font-face {
-  font-family: 'anjomanUltraBold';
-  src: url('/fonts/anjoman-ultrabold.woff2') format('truetype');
+  font-family: 'sansLight';
+  src: url('/fonts/sans-light.woff2') format('truetype');
   
 }
 @font-face {
-  font-family: 'anjomanBold';
-  src: url('/fonts/anjoman-bold.woff2') format('truetype');
+  font-family: 'sansThin';
+  src: url('/fonts/sans-thin.woff2') format('truetype');
   
 }
 @font-face {
-  font-family: 'anjomanSemiBold';
-  src: url('/fonts/anjoman-semibold.woff2') format('truetype');
+  font-family: 'sansRegular';
+  src: url('/fonts/sans-regular.woff2') format('truetype');
   
 }
 @font-face {
-  font-family: 'anjomanMedium';
-  src: url('/fonts/anjoman-medium.woff2') format('truetype');
+  font-family: 'sansMedium';
+  src: url('/fonts/sans-medium.woff2') format('truetype');
   
 }
 @font-face {
-  font-family: 'anjomanRegular';
-  src: url('/fonts/anjoman-regular.woff2') format('truetype');
+  font-family: 'sansSemiBold';
+  src: url('/fonts/sans-demibold.woff2') format('truetype');
   
 }
 @font-face {
-  font-family: 'anjomanLight';
-  src: url('/fonts/anjoman-light.woff2') format('truetype');
+  font-family: 'sansBold';
+  src: url('/fonts/sans-bold.woff2') format('truetype');
   
 }
 @font-face {
-  font-family: 'anjomanNumBold';
-  src: url('/fonts/anjoman-num-bold.woff2') format('woff2');
+  font-family: 'sansExtraBold';
+  src: url('/fonts/sans-extrabold.woff2') format('truetype');
   
 }
 @font-face {
-  font-family: 'anjomanNumMedium';
-  src: url('/fonts/anjoman-num-medium.woff2') format('woff2');
+  font-family: 'sansBlack';
+  src: url('/fonts/sans-black.woff2') format('truetype');
   
 }
 @font-face {
-  font-family: 'anjomanNumRegular';
-  src: url('/fonts/anjoman-num-regular.woff2') format('woff2');
-  
-}
-@font-face {
-  font-family: 'anjomanNumLight';
-  src: url('/fonts/anjoman-num-light.woff2') format('woff2');
+  font-family: 'sansExtraBlack';
+  src: url('/fonts/sans-extrablack.woff2') format('truetype');
   
 }
 
+/* numeral */
+@font-face {
+  font-family: 'sansLightNum';
+  src: url('/fonts/sans-light-num.woff2') format('truetype');
+  
+}
+@font-face {
+  font-family: 'sansThinNum';
+  src: url('/fonts/sans-thin-num.woff2') format('truetype');
+  
+}
+@font-face {
+  font-family: 'sansRegularNum';
+  src: url('/fonts/sans-regular-num.woff2') format('truetype');
+  
+}
+@font-face {
+  font-family: 'sansMediumNum';
+  src: url('/fonts/sans-medium-num.woff2') format('truetype');
+  
+}
+@font-face {
+  font-family: 'sansSemiBoldNum';
+  src: url('/fonts/sans-demibold-num.woff2') format('truetype');
+  
+}
+@font-face {
+  font-family: 'sansBoldNum';
+  src: url('/fonts/sans-bold-num.woff2') format('truetype');
+  
+}
+@font-face {
+  font-family: 'sansExtraBoldNum';
+  src: url('/fonts/sans-extrabold-num.woff2') format('truetype');
+  
+}
+@font-face {
+  font-family: 'sansBlackNum';
+  src: url('/fonts/sans-black-num.woff2') format('truetype');
+  
+}
+@font-face {
+  font-family: 'sansExtraBlackNum';
+  src: url('/fonts/sans-extrablack-num.woff2') format('truetype');
+  
+}
 
 /* add fonts */
 
@@ -224,79 +266,165 @@ table {
   .fs_39 {
 	font-size: clamp(39px, 2vw, 41px); 
   }
-.anjoman_ultrabold{
-font-family:'anjomanUltraBold' ;
-
-}
-  .anjoman_bold{
-    font-family: "anjomanBold";
+.sansThin{
+font-family: 'sansThin';
   }
-  .anjoman_semibold{
-font-family: 'anjomanSemiBold';
-  }
-  .anjoman_medium{
-font-family: 'anjomanMedium';
-  }
-  .anjoman_regular{
-    font-family: "anjomanRegular";
-  }
-  .anjoman_light{
-    font-family: "anjomanLight";
-    
-  }
-.anjoman_num_bold{
-  font-family: "anjomanNumBold";
-}
-.anjoman_num_medium{
-  font-family: "anjomanNumMedium";
-}
-.anjoman_num_regular{
-  font-family: "anjomanNumRegular";
-}
-.anjoman_num_light{
-  font-family: "anjomanNumLight";
-}
-
-  .color_white{
-    color: white;
-  }
-  .color_dark{
-    color: #262626;
-  }
-  .color_black{
-    color: #000000;
-  }
-  .color_orange{
-    color: #FF5050;
-  }
-  .color_white{
-    color: #ffffff;
-  }
-  .color_pink{
-    color: #C12E5C;
-  }
-  .bg_color_pink{
-    background-color:#C12E5C ;
-  }
-  .bg_color_body{
-    background-color: #f7f5f2;
-  }
-  .bg_color_white{
-    background-color: white;
-  }
-  .bg_color_orange{
-    background-color: #FF5050;
-  }
-  .bg_color_black{
-    background-color: black
+  .sansLight{
+    font-family: "sansLight";
   }
   
-  .bg_color_gray{
-    background-color: #E2E2E2;
+  .sansRegular{
+font-family: 'sansRegular';
   }
-  .bg_color_white{
-    background-color: #ffffff;
+  .sansMedium{
+    font-family: "sansMedium";
   }
+  .sansSemiBold{
+    font-family: "sansSemiBold";
+    
+  }
+  .sansBold{
+    font-family: "sansBold";
+    
+  }
+  .sansExtraBold{
+    font-family: "sansExtraBold";
+    
+  }
+  .sansBlack{
+    font-family: "sansBlack";
+    
+  }
+  .sansExtraBlack{
+    font-family: "sansExtraBlack";
+    
+  }
+
+
+
+
+
+
+  .sansThinNum{
+font-family: 'sansThinNum';
+  }
+  .sansLightNum{
+    font-family: "sansLightNum";
+  }
+  
+  .sansRegularNum{
+font-family: 'sansRegularNum';
+  }
+  .sansMediumNum{
+    font-family: "sansMediumNum";
+  }
+  .sansSemiBoldNum{
+    font-family: "sansSemiBoldNum";
+    
+  }
+  .sansBoldNum{
+    font-family: "sansBoldNum";
+    
+  }
+  .sansExtraBoldNum{
+    font-family: "sansExtraBoldNum";
+    
+  }
+  .sansBlackNum{
+    font-family: "sansBlackNum";
+    
+  }
+  .sansExtraBlackNum{
+    font-family: "sansExtraBlackNum";
+    
+  }
+ :root {
+  --background-color: #f7f5f2;
+  --surface-color: #ffffff;
+  --text-color: #3a3232;
+  --primary-color: #c12e5c;
+  --accent-color-1: #fca311;
+  --accent-color-2: #4e8489;
+  --border-color: rgba(58, 50, 50, 0.15);
+}
+[data-theme="dark"] {
+  --background-color: #3a3232;
+  --surface-color: #4a4242; 
+  --text-color: #f7f5f2;
+  --primary-color: #c12e5c;
+  --accent-color-1: #fca311;
+  --accent-color-2: #4e8489;
+  --border-color: rgba(247, 245, 242, 0.2);
+}
+.text_white{
+  color: white;
+}
+.text_primary {
+  color: var(--primary-color);
+}
+.text_accent_1 {
+  color: var(--accent-color-1);
+}
+.text_accent_2 {
+  color: var(--accent-color-2);
+}
+.text_default {
+  color: var(--text-color);
+}
+.text_surface {
+  color: var(--surface-color);
+}
+.text_background {
+  color: var(--background-color);
+}
+
+
+.bg_white{
+  background-color: white;
+}
+.bg_primary {
+  background-color: var(--primary-color);
+}
+.bg_accent_1 {
+  background-color: var(--accent-color-1);
+}
+.bg_accent_2 {
+  background-color: var(--accent-color-2);
+}
+.bg_default {
+  background-color: var(--background-color);
+}
+.bg_surface {
+  background-color: var(--surface-color);
+}
+.bg_text {
+  background-color: var(--text-color);
+}
+
+.border-primary {
+  border-color: var(--primary-color);
+}
+.border-accent-1 {
+  border-color: var(--accent-color-1);
+}
+.border-accent-2 {
+  border-color: var(--accent-color-2);
+}
+.border-default {
+  border-color: var(--border-color);
+}
+.border-surface {
+  border-color: var(--surface-color);
+}
+.border-text {
+  border-color: var(--text-color);
+}
+.border-background {
+  border-color: var(--background-color);
+}
+
+
+ 
   .cursor_pointer{
     cursor: pointer;
   }

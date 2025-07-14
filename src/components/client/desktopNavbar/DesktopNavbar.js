@@ -9,6 +9,7 @@ import { IoMoonOutline } from "react-icons/io5";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import { IoBagOutline } from "react-icons/io5";
 import { CiUser } from "react-icons/ci";
+import DarkModeBtn from "./darkModeBtn/DarkModeBtn";
 //test
 export default function DesktopNavbar() {
   return (
@@ -150,8 +151,8 @@ export default function DesktopNavbar() {
 
             <p className="p-0 m-0 fs_14 anjoman_regular">ثبت نام |ورود </p>
           </div>
-          <div className="dark-mode-btn-container p-2 cursor_pointer">
-            <IoMoonOutline style={{ fontSize: "22px" }} />
+          <div className="">
+            <DarkModeBtn></DarkModeBtn>
           </div>
           <div className="notification-btn-container p-2 cursor_pointer">
             <IoIosNotificationsOutline style={{ fontSize: "24px" }} />

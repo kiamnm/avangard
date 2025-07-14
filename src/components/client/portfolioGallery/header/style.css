@@ -1,0 +1,23 @@
+.portfolio-gallery-container div.right div.icon-container{
+    width: 48px;
+    height: 48px;
+    
+    border-radius: 4px;
+}
+.portfolio-gallery-container div.right div.icon-container img{
+    width: 24px;
+    height: 24px;
+}
+.portfolio-gallery-container div.left .button-container{
+border-radius: 40px;
+padding: 8px 12px;
+
+}
+.portfolio-gallery-container div.left .button-container span{
+    border-radius: 50%;
+    background-color: rgba(256, 256, 256, 0.4);
+    
+    width: 24px;
+    height: 24px;
+    
+}

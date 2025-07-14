@@ -1,0 +1,35 @@
+.ai-consultant-container{
+    width: 70%;
+}
+.ai-consultant-container p:nth-of-type(1) {
+    padding-bottom: 8px;
+}
+.ai-consultant-container p:nth-of-type(2) {
+  
+  
+  font-weight: bold;
+  border-bottom: 1px solid #F7F5F233;
+  margin-bottom: 32px;
+}
+.ai-consultant-container p:nth-of-type(3) {
+  
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.ai-consultant-container p:nth-of-type(4) {
+ 
+  
+  font-weight: bold;
+  
+}
+.ai-consultant-container .button-container{
+    margin-top: 48px;
+    gap: 16px;
+}
+.ai-consultant-container .button-container .button{
+    width:160px ;
+    gap: 6px;
+    border-radius: 4px;
+    padding: 8px 0px;
+}
