@@ -1,0 +1,45 @@
+div.academy-container {
+    height:400px;
+    gap: 16px;
+}
+div.academy-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+div.academy-container div.main-img{
+    width: 70%;
+}
+div.academy-container div.three-img{
+    width: 30%;
+    height: 100%;
+    gap: 16px;
+}
+ div.academy-container div.three-img div{
+    flex: 1;
+    overflow: hidden;
+    
+    
+}
+
+
+@media screen and (max-width:768px) {
+    div.academy-container div.main-img{
+    width: 100%;
+}
+div.academy-container div.three-img{
+    width: 100%;
+}
+div.academy-container {
+    height:auto;
+    
+}
+
+div.academy-container div.three-img div img{
+    height: 120px;
+}
+div.academy-container div.main-img img{
+    height: 360px;
+}
+}

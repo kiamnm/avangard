@@ -9,11 +9,13 @@ import NearestSalon from "@/components/client/nearestSalon/NearestSalon";
 import ServiceMenu from "@/components/client/serviceMenu/ServiceMenu";
 import AmazingOffer from "@/components/client/amazingOffer/AmazingOffer";
 import PortfolioGallery from "@/components/client/portfolioGallery/PortfolioGallery";
+import NewestProduct from "@/components/newestProduct/NewestProduct";
+import Academy from "@/components/academy/Academy";
 
 
 export default function Home() {
   return (
-    <div className="home-page-container bg_default">
+    <div className="home-page-container bg_mode_semiWhite">
       <DesktopNavbar></DesktopNavbar>
       <HomeHeader></HomeHeader>
       <BestStylist></BestStylist>
@@ -21,6 +23,8 @@ export default function Home() {
       <ServiceMenu></ServiceMenu>
       <AmazingOffer></AmazingOffer>
       <PortfolioGallery></PortfolioGallery>
+      <NewestProduct></NewestProduct>
+      <Academy></Academy>
 
       <div className="pt-5">
 <h1 className="sansThin bg-primary">سلام چطوری؟ این تست برای فونت است</h1>
