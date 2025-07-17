@@ -1,0 +1,38 @@
+.typical-component-header-with-menu div.right div.icon-container{
+    width: 48px;
+    height: 48px;
+    
+    border-radius: 4px;
+}
+.typical-component-header-with-menu div.right div.icon-container img{
+    width: 24px;
+    height: 24px;
+}
+.typical-component-header-with-menu div.left .button-container{
+border-radius: 40px;
+padding: 8px 12px;
+
+}
+.typical-component-header-with-menu div.left .button-container span{
+    border-radius: 50%;
+    background-color: rgba(256, 256, 256, 0.4);
+    
+    width: 24px;
+    height: 24px;
+    
+}
+
+.typical-component-header-with-menu .button-container button{
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    padding: 0px 12px;
+    border-radius: 80px;
+}
+.typical-component-header-with-menu .button-container button.active{
+    background-color: var(--pink-light)!important;
+}
+
+.typical-component-header-with-menu .button-container.mobile-mode{
+    margin-top: 24px;
+}

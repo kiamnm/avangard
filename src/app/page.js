@@ -11,20 +11,26 @@ import AmazingOffer from "@/components/client/amazingOffer/AmazingOffer";
 import PortfolioGallery from "@/components/client/portfolioGallery/PortfolioGallery";
 import NewestProduct from "@/components/newestProduct/NewestProduct";
 import Academy from "@/components/academy/Academy";
+import PopularProduct from "@/components/client/popularProduct/PopularProduct";
+import NewestAd from "@/components/client/newestAd/NewestAd";
+import PopularCourse from "@/components/client/popularCourse/PopularCourse";
 
 
 export default function Home() {
   return (
     <div className="home-page-container bg_mode_semiWhite">
-      <DesktopNavbar></DesktopNavbar>
-      <HomeHeader></HomeHeader>
+      {/* <DesktopNavbar></DesktopNavbar> */}
+      {/* <HomeHeader></HomeHeader> */}
       <BestStylist></BestStylist>
       <NearestSalon></NearestSalon>
       <ServiceMenu></ServiceMenu>
       <AmazingOffer></AmazingOffer>
       <PortfolioGallery></PortfolioGallery>
       <NewestProduct></NewestProduct>
+      <PopularProduct></PopularProduct>
       <Academy></Academy>
+      <NewestAd></NewestAd>
+      <PopularCourse></PopularCourse>
 
       <div className="pt-5">
 <h1 className="sansThin bg-primary">سلام چطوری؟ این تست برای فونت است</h1>
