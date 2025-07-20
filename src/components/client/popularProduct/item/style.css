@@ -1,0 +1,58 @@
+.popular-product-wrapper div.item-container{
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+}
+.popular-product-wrapper div.item-container div.right span{
+    padding: 8px;
+    border-radius: 50%;
+}
+.popular-product-wrapper div.img-container {
+    width: 100%;
+    height: 200px;
+    padding-top: 16px;
+}
+.popular-product-wrapper div.img-container img{
+    width: 100%;
+    height: 100%;
+    
+}
+.popular-product-wrapper div.tag-container span{
+    border-radius: 16px;
+    padding: 4px 8px;
+}
+.popular-product-wrapper h4 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.popular-product-wrapper div.brand-container {
+    margin-bottom: 16px;
+}
+.popular-product-wrapper div.seller-container img{
+    width: 36px;
+    height: 36px;
+   
+    border-radius: 50%;
+    
+}
+.popular-product-wrapper div.seller-container img{
+    margin-bottom: 16px;
+    
+    
+}
+.popular-product-wrapper div.footer-container{
+    border-top: 1px solid rgb(197, 197, 197);
+    padding: 16px 0px;
+}
+.popular-product-wrapper div.footer-container p:nth-of-type(1){
+   
+    text-decoration: line-through;
+     text-decoration-color: var(--pink-light);
+}
+.popular-product-wrapper div.footer-container p:nth-of-type(3){
+    padding: 8px;
+    border-radius: 24px;
+   
+   
+}

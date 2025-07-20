@@ -1,0 +1,53 @@
+ div.main-footer-container {
+    padding: 64px 0;
+ }
+ div.about-social-container {
+    width: 30%;
+ }
+ @media screen and (max-width:1200px) {
+   div.about-social-container {
+    width: 100%;
+ }
+ }
+ 
+ 
+ 
+  div.about-social-container p{
+line-height: 34px;
+margin-bottom: 16px;
+ }
+   div.about-social-container span.social{
+      padding: 8px;
+      border-radius: 16px;
+   }
+   div.about-social-container h2{
+      margin-bottom:32px ;
+   }
+   div.enamds-container div{
+      padding: 12px;
+      border-radius: 16px;
+
+   }
+  
+   div.bar-container {
+      margin-top: 32px;
+      border-radius: 16px;
+      padding: 8px 16px;
+   }
+      div.bar-container  .left{
+         padding: 16px;
+         border-radius: 8px;
+      }
+      div.bar-container .button{
+         padding: 6px 20px;
+         border-radius: 8px;
+         
+      }
+
+      div.bar-container img.logo{
+         width: 64px;
+         height: 64px;
+      }
+ img.last-img{
+    width: 100%;
+ }

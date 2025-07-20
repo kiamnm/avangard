@@ -14,6 +14,7 @@ import Academy from "@/components/academy/Academy";
 import PopularProduct from "@/components/client/popularProduct/PopularProduct";
 import NewestAd from "@/components/client/newestAd/NewestAd";
 import PopularCourse from "@/components/client/popularCourse/PopularCourse";
+import Footer from "@/components/client/footer/Footer";
 
 
 export default function Home() {
@@ -31,36 +32,9 @@ export default function Home() {
       <Academy></Academy>
       <NewestAd></NewestAd>
       <PopularCourse></PopularCourse>
+      <Footer></Footer>
 
-      <div className="pt-5">
-<h1 className="sansThin bg-primary">سلام چطوری؟ این تست برای فونت است</h1>
-
-      <h1 className="sansLight bg_accent_1">سلام چطوری؟ این تست برای فونت است</h1>
-      <h1 className="sansRegular bg_accent_2">سلام چطوری؟ این تست برای فونت است</h1>
-      <h1 className="sansMedium bg_default">سلام چطوری؟ این تست برای فونت است</h1>
-      <h1 className="sansSemiBold bg_surface">سلام چطوری؟ این تست برای فونت است</h1>
-      <h1 className="sansBold bg_text">سلام چطوری؟ این تست برای فونت است</h1>
-      <h1 className="sansExtraBold">سلام چطوری؟ این تست برای فونت است</h1>
-      <h1 className="sansBlack">سلام چطوری؟ این تست برای فونت است</h1>
-      <h1 className="sansExtraBlack">سلام چطوری؟ این تست برای فونت است</h1>
-
-      <h1 className="sansThinNum">سلام 123456789</h1>
-      <h1 className="sansLightNum">سلام 123456789</h1>
-
-      <h1 className="sansRegularNum" >سلام 123456789</h1>
-
-      <h1 className="sansMediumNum" >سلام 123456789</h1>
-
-      <h1 className="sansSemiBoldNum" >سلام 123456789</h1>
-
-      <h1 className="sansBoldNum">سلام 123456789</h1>
-
-      <h1 className="sansExtraBoldNum" >سلام 123456789</h1>
-
-      <h1 className="sansBlackNum" >سلام 123456789</h1>
-
-      <h1 className="sansExtraBlackNum" >سلام 123456789</h1>
-      </div>
+      
       
     </div>
   );
