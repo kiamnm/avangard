@@ -10,6 +10,8 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 import { IoBagOutline } from "react-icons/io5";
 import { CiUser } from "react-icons/ci";
 import DarkModeBtn from "./darkModeBtn/DarkModeBtn";
+import { LuMenu } from "react-icons/lu";
+import HambergerMenuBtn from "./hambergerMenuBtn/HambergerMenuBtn";
 //test
 export default function DesktopNavbar() {
   return (
@@ -20,7 +22,7 @@ export default function DesktopNavbar() {
             <img className="logo" src="./images/pink-logo.svg" alt="آوانگارد" />
             <p className="p-0 m-0 fs_18 anjoman_bold">آوانگارد</p>
           </div>
-          <ul className="items-container d-flex  align-items-center p-0 m-0">
+          <ul className="items-container d-none d-lg-flex  align-items-center p-0 m-0">
             <li className="d-flex fs_14 anjoman_regular cursor_pointer active ">
               <span className="p-0 m-0 d-flex align-items-center">
                 <MdHome style={{ color: "#C12E5C", fontSize: "24px" }} />
@@ -144,7 +146,7 @@ export default function DesktopNavbar() {
           </ul>
         </div>
         <div className="left d-flex align-items-center">
-          <div className="login-btn-container d-flex align-items-center px-3 py-2 cursor_pointer">
+          <div className="login-btn-container d-none d-xl-flex align-items-center px-3 py-2 cursor_pointer">
             <span className="d-flex align-items-center">
               <CiUser style={{ fontSize: "24px" }} />
             </span>
@@ -157,7 +159,15 @@ export default function DesktopNavbar() {
           <div className="notification-btn-container p-2 cursor_pointer">
             <IoIosNotificationsOutline style={{ fontSize: "24px" }} />
           </div>
-          <div className="cart-btn-container p-2 cursor_pointer">
+         
+         <div className="d-flex d-xl-none">
+          <HambergerMenuBtn>
+
+         </HambergerMenuBtn>
+         </div>
+    
+          
+          <div className="cart-btn-container p-2 cursor_pointer d-none d-xl-flex">
             <IoBagOutline style={{ fontSize: "22px" }} />
           </div>
         </div>

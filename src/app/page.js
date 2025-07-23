@@ -15,12 +15,13 @@ import PopularProduct from "@/components/client/popularProduct/PopularProduct";
 import NewestAd from "@/components/client/newestAd/NewestAd";
 import PopularCourse from "@/components/client/popularCourse/PopularCourse";
 import Footer from "@/components/client/footer/Footer";
+import DownMenu from "@/components/client/downMenu/DownMenu";
 
 
 export default function Home() {
   return (
     <div className="home-page-container bg_mode_semiWhite">
-      {/* <DesktopNavbar></DesktopNavbar> */}
+      <DesktopNavbar></DesktopNavbar>
       {/* <HomeHeader></HomeHeader> */}
       <BestStylist></BestStylist>
       <NearestSalon></NearestSalon>
@@ -33,6 +34,7 @@ export default function Home() {
       <NewestAd></NewestAd>
       <PopularCourse></PopularCourse>
       <Footer></Footer>
+      <DownMenu></DownMenu>
 
       
       
