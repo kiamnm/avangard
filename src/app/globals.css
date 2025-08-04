@@ -620,6 +620,11 @@ font-family: 'sansRegularNum';
 .lh_0{
   line-height: 0;
 }
+input,
+textarea,
+select {
+  font-size: 16px!important;
+}
   /* costum class */
 
 

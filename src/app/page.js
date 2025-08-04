@@ -1,6 +1,6 @@
 import "./globals.css";
 import "./style.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 import HomeHeader from "@/components/client/homeHeader/HomeHeader";
 import BestStylist from "@/components/client/bestStylist/BestStylist";
 

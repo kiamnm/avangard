@@ -1,6 +1,7 @@
 
 import "./globals.css";
 import TheamProvider from "./TheamProvider";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 
